@@ -23,7 +23,7 @@ export default async function handler(
         },
         {
           role: "user",
-          content: `Hi there, provide summary of the following ToDos. Count how many todos are in each category such as To Do, In progress and Done, then tell the user to have a productive day! Heres's the data ${JSON.stringify(
+          content: `Hi there, provide summary of the following tasks. Count how many todos are in each category such as To Do, In progress and Done, then tell the user to have a productive day! Heres's the data ${JSON.stringify(
             todos
           )}   `,
         },
