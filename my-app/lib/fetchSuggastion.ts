@@ -5,7 +5,7 @@ const fetchSuggestion = async (board: Board) => {
   console.log(" const todos = formatTodosForAI(board);");
   console.log(todos);
 
-  const res = await fetch("/api/post", {
+  const res = await fetch("/api/routes", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -14,9 +14,12 @@ const fetchSuggestion = async (board: Board) => {
   });
 
   const GPTData = await res.json();
-  const { content } = GPTData;
+  const { contentObj } = GPTData;
 
-  return content;
+  console.log("const { content } = GPTData;");
+  console.log(contentObj);
+
+  return contentObj;
 };
 
 export default fetchSuggestion;
