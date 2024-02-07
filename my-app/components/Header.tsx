@@ -3,7 +3,6 @@ import fetchSuggestion from "@/lib/fetchSuggastion";
 import { BoardStore } from "@/store/BoardStore";
 import { MagnifyingGlassIcon, UserCircleIcon } from "@heroicons/react/16/solid";
 import React, { useEffect, useState } from "react";
-import Avatar from "react-avatar";
 
 const Header = () => {
   const [board, searchString, setSearchString] = BoardStore((state) => [
@@ -48,7 +47,6 @@ const Header = () => {
               Search
             </button>
           </form>
-          {/* <Avatar name="M M" round color="green" size="50" /> */}
         </div>
       </div>
       <div className="flex items-center justify-center p-5 px-5 md:py-5">
