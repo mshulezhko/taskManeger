@@ -1,4 +1,4 @@
-###Task Maneger
+### Task Maneger
 
 
 This is a [Next.js](https://nextjs.org/) project
@@ -23,9 +23,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 
-#You can add tasks, drag them to another column, add a picture to the description, and also delete a task
+# You can add tasks, drag them to another column, add a picture to the description, and also delete a task
 
-##How can I improve this 🌱
+## How can I improve this 🌱
 - add authorization
 - add calendar
 
