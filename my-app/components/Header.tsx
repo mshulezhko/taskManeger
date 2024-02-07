@@ -33,8 +33,8 @@ const Header = () => {
       <div className="absolute pot-0 left-0 w-full h-96 bg-gradient-to-br from-yellow-400 to-green-700 rounded-md filter blur-3xl opacity-50 -z-50"></div>
 
       <div className="flex flex-col md:flex-row items-center p-5 md:space-between">
-        <div className="p-5 text-6xl">🎯</div>
-        <div className="flex items-center space-x-5 flex-1 justify-end w-full">
+        <div className="flex justify-between items-center space-x-5 flex-1  w-full">
+          <div className="p-5 text-6xl"> 🎯</div>
           <form className="flex items-center space-x-5 bg-white rounded-md p-2 shadow-mb flex-1 md:flex-initial">
             <MagnifyingGlassIcon className="h-6 w-6 text-gray-400" />
             <input
@@ -48,7 +48,7 @@ const Header = () => {
               Search
             </button>
           </form>
-          <Avatar name="M M" round color="green" size="50" />
+          {/* <Avatar name="M M" round color="green" size="50" /> */}
         </div>
       </div>
       <div className="flex items-center justify-center p-5 px-5 md:py-5">
